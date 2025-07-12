@@ -1,0 +1,69 @@
+# === Build artifacts ===
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# === CMake files ===
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+_build/
+out/
+bin/
+Debug/
+Release/
+
+# === Compiled source ===
+*.class
+
+# === Logs and debugging ===
+*.log
+*.dmp
+*.stackdump
+
+# === IDE / Editor files ===
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# === Visual Studio ===
+*.sdf
+*.ipch
+*.opensdf
+*.tlog/
+*.pdb
+*.idb
+.vs/
+
+# === Xcode ===
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+DerivedData/
+
+# === OS-generated ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# === Backup / temp ===
+*~
+*.swp
+*.bak
+*.tmp
