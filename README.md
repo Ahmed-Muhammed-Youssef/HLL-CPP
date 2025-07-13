@@ -13,9 +13,9 @@ A lightweight C++ implementation of the **HyperLogLog** algorithm to estimate th
 
 ```cpp
 constexpr std::size_t TEST_ARRAY_SIZE = 5;
-constexpr int TEST_PREFIX_SIZE = 4;
+constexpr int TEST_PREFIX_SIZE = 6;
 
-std::array<int, TEST_ARRAY_SIZE> data = { 1, 2, 3, 4, 1 };
+std::array<int, TEST_ARRAY_SIZE> data = { 1, 2, 3, 4, 1, 2 };
 
 double estimate = HyperLogLog::hll(TEST_PREFIX_SIZE, data);
 
