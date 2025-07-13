@@ -12,8 +12,8 @@ A lightweight C++ implementation of the **HyperLogLog** algorithm to estimate th
 ## 🚀 Example Usage
 
 ```cpp
-constexpr std::size_t TEST_ARRAY_SIZE = 5;
-constexpr int TEST_PREFIX_SIZE = 6;
+constexpr std::size_t TEST_ARRAY_SIZE = 6;
+constexpr int TEST_PREFIX_SIZE = 5;
 
 std::array<int, TEST_ARRAY_SIZE> data = { 1, 2, 3, 4, 1, 2 };
 
